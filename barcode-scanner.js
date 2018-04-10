@@ -1,20 +1,19 @@
 module.exports = function(RED) {
-/*
 	"use strict";
 	var hids = require('./node_modules/node-usb-barcode-scanner/usbscanner');
 	var usbScanner = hids.usbScanner;
 	var getDevices = hids.getDevices;
-*/
+
 	function BarcodeScannerNode(n) {
-/*
+
 		var devices = getDevices();
 		var path;
 		var vend_id;
         	// Create a RED node //print devices console.log(devices)
-*/
+
         	RED.nodes.createNode(this,n);
 		//initialize new usbScanner
-/*		findscanner();
+		findscanner();
 
 	if (path != null) {
 		var scanner = new usbScanner({vendorId:vend_id});
@@ -50,7 +49,7 @@ module.exports = function(RED) {
 		}
 	}
 
-*/
+
     // Register the node by name. This must be called before overriding any of the
     // Node functions.
     RED.nodes.registerType("barcode-scanner",BarcodeScannerNode);
