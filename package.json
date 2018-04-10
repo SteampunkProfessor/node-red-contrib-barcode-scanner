@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-barcode-scanner",
+  "version": "0.0.1",
+  "description": "Barcode scanner node for Node-RED",
+  "main": "barcode-scanner.js",
+  "dependencies": {
+    "node-hid": "file:node_modules/node-hid",
+    "node-usb-barcode-scanner": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteampunkProfessor/node-red-contrib-barcode-scanner.git"
+  },
+  "keywords": [
+    "node-red",
+    "barcode",
+    "scanner"
+  ],
+  "author": "Steampunk Professor <steampunkprofessor@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SteampunkProfessor/node-red-contrib-barcode-scanner/issues"
+  },
+  "homepage": "https://github.com/SteampunkProfessor/node-red-contrib-barcode-scanner#readme"
+}
