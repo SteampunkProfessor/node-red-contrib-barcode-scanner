@@ -1,1 +1,1 @@
-# node-red-contrib-barcode-scanner
+Barcode scanner node for Node-RED
